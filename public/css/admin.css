@@ -1,0 +1,116 @@
+.all{
+    margin: 100px auto;
+    width: 1200px;
+}
+
+.sousuo{
+    display: inline-block;
+    background: red;
+    border-radius: 0 50% 50% 0;
+    height: 40px;
+    width: 40px;
+    position: relative;
+    /*left: 370px;*/
+    top: -2px;
+    cursor: pointer;
+}
+#sousuo{
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px 0px 0px 5px;
+
+    border: 1px solid #ccc;
+    width: 300px;
+}
+span{
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+input{
+    height: 30px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+textarea{
+    height: 80px;
+    width: 500px;
+    vertical-align: middle;
+
+}
+.layui-tab-title>li{
+    width: 25%;
+    text-align: center;
+    background: rgba(118, 118, 255, 0.89);
+    color: white;
+}
+.layui-tab-card>.layui-tab-title .layui-this{
+    color: #333;
+}
+.layui-tab-item{
+    text-align: center;
+}
+
+p{
+    display: inline-block;
+    line-height: 40px;
+    margin-left: 10px;
+    color: blue;
+    cursor: pointer;
+}
+.getname>span{
+    cursor: pointer;
+}
+.getname>span:hover{
+    color: #ef4238;
+}
+.allname>span{
+    cursor: pointer;
+}
+.allname>span:hover{
+    color: #ef4238;
+}
+.delet_name>span{
+    cursor: pointer;
+}
+.delet_name>span:hover{
+    color: #ef4238;
+}
+.allxinxi>p{
+    width: 100%;
+    font-size: 16px;
+    line-height: 30px;
+    color: #333;
+}
+
+
+.xiugaibody{
+    display: none;
+}
+.mkleibie>input{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.mkleibie>span{
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    top: -3px;
+}
+.typeleibie>input{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.typeleibie>span{
+    font-size: 16px;
+    line-height: 16px;
+    position: relative;
+    top: -3px;
+}
+.ycfenlei{
+    display: none;
+}

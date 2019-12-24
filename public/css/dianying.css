@@ -1,0 +1,163 @@
+.main-t1{
+    height: 60px;
+    width: 100%;
+    background: #47464a;
+    margin-top: 80px;
+}
+.main-t1>ul{
+    margin: auto;
+    height: 60px;
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: none;
+}
+.main-t1>ul>li{
+    font-size: 16px;
+    color: #999;
+    line-height: 60px;
+    cursor: pointer;
+}
+
+.main-t1>ul>li:active{
+    border: none;
+}
+/*清除点击的边框*/
+.layui-tab-title .layui-this:after{
+    border-width: 0px;
+}
+.layui-tab-title .layui-this {
+    color: #ef4238;
+    border-top: 5px solid #ef4238;
+}
+
+.main-t2{
+    width: 70%;
+    margin: auto;
+    border: 1px solid #e5e5e5;;
+    margin-top: 40px;
+}
+
+.main-t2>div{
+    width: 95%;
+    margin: auto;
+    /*height: 60px;*/
+    margin-top: 10px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.main-t2>div>div:first-child{
+    display: inline-block;
+    width: 43px;
+    height: 60px;
+    line-height: 30px;
+    font-size: 14px;
+    color: #999;
+    float: left;
+}
+/*背景点击变为红色*/
+.main-t2>div>div>ul>li{
+    font-size: 14px;
+    border-radius: 14px;
+    padding: 3px 9px;
+    display: inline-block;
+    margin-left: 12px;
+    cursor: pointer;
+    /*background: red;*/
+}
+/*随点击变化状态*/
+.fenlei-red{
+    background: #ef4238;
+    color: white;
+}
+/*第三主体栏*/
+.main-t3{
+    width: 70%;
+    margin: 40px auto;
+}
+
+.main-t3>div>ul{
+    height: 21px;
+}
+.main-t3>div>ul>li{
+    float: left;
+    height: 21px;
+    font-size: 14px;
+    line-height: 21px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+.main-t3>div>ul>li>span{
+    display: inline-block;
+    position: relative;
+    top: 2px;
+    margin-right: 10px;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    border: 1px solid #eee;
+}
+.main-t3>div>div:nth-child(2){
+    margin-top: 20px;
+    width: 100%;
+    /*background: yellow;*/
+}
+.gpdingwei{
+    display: inline-block;
+    position: absolute;
+    background: #f34d41;;
+    color: white;
+    top: 197px;
+    right: 12px;
+    font-size: 12px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 2px;
+    border-radius: 2px;
+}
+.main-t3>div>div:nth-child(2)>div{
+    margin-bottom: 30px;
+}
+.main-t3>div>div:nth-child(2)>div>a:hover{
+    text-decoration: none;
+}
+
+.main-t3>div>div:nth-child(2)>div>a>p{
+    height: 21px;
+    width: 160px;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 16px;
+    color: #333;
+}
+.main-t3>div>div:nth-child(2)>div>a>.pingfen{
+    height: 24px;
+    font-size: 16px;
+    color: #ffb400;
+    text-align: center;
+}
+.main-t3>div>div:nth-child(2)>div>a>.pingfen>span:first-child{
+    font-size: 18px;
+    color: #ffb400;
+    font-style: oblique;
+}
+.main-t3>div>div:nth-child(2)>div>a>.pingfen>span:last-child{
+    font-size: 14px;
+    color: #ffb400;
+    font-style: oblique;
+}
+.main-t3>div>div:nth-child(2)>div>a>img{
+    width: 160px;
+}
+
+.main-t3-footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.main-t3-footer>span{
+    padding: 10px;
+    border: 1px solid #eee;
+    margin-right: 10px;
+    cursor: pointer;
+}
